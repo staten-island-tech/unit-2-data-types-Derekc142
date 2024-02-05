@@ -1,0 +1,3 @@
+x = "How many words are in this sentence?"
+words_list = x.split( )
+print (len(words_list))

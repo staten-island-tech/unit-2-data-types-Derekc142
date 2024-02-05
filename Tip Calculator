@@ -1,0 +1,5 @@
+#x=bill y=tip z=total
+x = float(5.44)
+y = int(1)
+z = (x+y)
+print(f"your total is {z}")

@@ -34,8 +34,15 @@ for i in values:
 print(values[0])
 print(values[6])  """
 
-x = "this is a thing"
+""" x = "this is a thing"
 y= x.split( )
 z = y[0]
 print(y)
-print(z)
+print(z) """
+
+day_of_week = input("what day is it? ")
+day_of_week = "Friday"
+if day_of_week == "Friday":
+    print("correct")
+else:
+    print("incorrect")

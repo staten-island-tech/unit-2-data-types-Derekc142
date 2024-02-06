@@ -1,5 +1,5 @@
-number = 2
-if number == "2, 4, 6, 8, 0":
+number = int(input("number"))
+if (number % 2) == 0:
     print("even")
 else:
     print("odd") 

@@ -40,9 +40,20 @@ z = y[0]
 print(y)
 print(z) """
 
-day_of_week = input("what day is it? ")
-day_of_week = "Friday"
+""" day_of_week = "Monday"
 if day_of_week == "Friday":
     print("correct")
 else:
-    print("incorrect")
+    print("incorrect") """
+
+x = "temp is"
+print(f"The {x}")
+
+temp = 68
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold')
+#if the temp is above 68 it is warm; if it is 68 it is perfect; if it is below 68 it is cold

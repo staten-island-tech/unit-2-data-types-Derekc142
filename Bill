@@ -1,0 +1,11 @@
+bill = (input("Cost of Food"))
+bill = float(bill)
+service = input("How is your service")
+if service == (" bad"):
+    print(f"total is: {bill}")
+elif service == (" okay"):
+    print(f"your total is: {bill * 1.15}")
+elif service == (" good"):
+    print(f"your total is: {bill * 1.2}")
+elif service == (" great"):
+    print(f"your total is: {bill * 1.25}") 

@@ -1,3 +1,9 @@
 number = int(input("number"))
-if (number % "divisor") == ("number"):
-    print ("divisor")
+
+def factor(x):
+    print ("The Factors of" ,number, "are:")
+    for i in range (1, x + 1):
+        if x % i == 0:
+            print (i)
+
+factor(number)

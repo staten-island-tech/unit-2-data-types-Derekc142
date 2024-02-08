@@ -1,0 +1,13 @@
+import math
+
+def gcfactor(x):
+    print ("The Greatest Common Factors of" ,x, "are:")
+    for i in range (1, x + 1):
+        if x % i == 0:
+            print(i)
+number1 = int(input("Number "))
+
+number2 = int(input("Number "))
+
+gcf = (math.gcd(number1, number2))
+print("The GCF of", number1, "and", number2, "are:", gcf)

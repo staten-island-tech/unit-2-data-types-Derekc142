@@ -6,8 +6,8 @@ def gcfactor(x):
         if x % i == 0:
             print(i)
 number1 = int(input("Number "))
-
+gcfactor(number1)
 number2 = int(input("Number "))
-
+gcfactor(number2)
 gcf = (math.gcd(number1, number2))
 print("The GCF of", number1, "and", number2, "are:", gcf)

@@ -10,5 +10,6 @@ number2 = int(input("Number "))
 gcfactor(number2)
 gcf = 1
 for number in number1: 
+    
 
 print("The GCF of", number1, "and", number2, "are:", gcf)

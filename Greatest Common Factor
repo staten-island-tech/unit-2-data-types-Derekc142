@@ -6,10 +6,12 @@ def gcfactor(x):
         return factors_list
 number1 = int(input("Number "))
 gcfactor(number1)
+factorsofnumber1 = gcfactor (number1)
 number2 = int(input("Number "))
 gcfactor(number2)
-gcf = 1
-for number in number1: 
-    
+factorsofnumber2 = gcfactor (number2)
 
+for number in factorsofnumber1: 
+    if number in factorsofnumber2 and gcf < number:
+        gcf = number
 print("The GCF of", number1, "and", number2, "are:", gcf)

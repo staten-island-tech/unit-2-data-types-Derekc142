@@ -3,13 +3,13 @@ def print_factors(x):
     for i in range (1, x + 1):
         if x % i == 0:
             factors_list.append(i)
-        return factors_list
-number1 = int(input("Number "))
-factorsofnumber1 = print_factors(number1)
-number2 = int(input("Number "))
-factorsofnumber2 = print_factors(number2)
-gcf = 2
-for number in factorsofnumber1: 
-    if number in factorsofnumber2 and gcf < number:
-        gcf = number
-print("The GCF of", number1, "and", number2, "are:", gcf)
+    return factors_list
+num1 = int(input("Number "))
+factors_num1 = print_factors(num1)
+num2 = int(input("Number "))
+factors_num2 = print_factors(num2)
+gcf = 1
+for num in factors_num1: 
+    if num in factors_num2 and gcf < num:
+        gcf = num
+print("The GCF of", num1, "and", num2, "are:", gcf)
